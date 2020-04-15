@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    username: root
+    password: 1336370416
+    url: jdbc:mysql://localhost:3306/focus?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driverClassName: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
